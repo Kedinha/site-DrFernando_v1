@@ -1,10 +1,13 @@
 import Layout from "../components/Layout"
 import Link from "next/link"
+// import Carousel from "../components/Carousel"
 
 import { skills, experiences, projects } from "../profile"
 
 const Index = () => (
   <Layout>
+   
+    {/* Banner */}
     <div
       id='carouselExampleSlidesOnly'
       className='carousel slide carousel-fade'
@@ -12,7 +15,7 @@ const Index = () => (
     >
       <div className='carousel-inner'>
         <div className='carousel-item active'>
-          <img src='./carrol01.png' className='d-block w-100' alt='' />
+          <img src='./animated-banner.gif' className='d-block w-100' alt='' />
         </div>
         <div className='carousel-item'>
           <img src='./carrol02.png' className='d-block w-100' alt='...' />
@@ -22,37 +25,16 @@ const Index = () => (
         </div>
       </div>
 
-      <button
-        className='carousel-control-prev'
-        type='button'
-        data-bs-target='#carouselExampleControls'
-        data-bs-slide='prev'
-      >
-        <span className='carousel-control-prev-icon' aria-hidden='true'></span>
-        <span className='visually-hidden'>Previous</span>
-      </button>
-      <button
-        className='carousel-control-next'
-        type='button'
-        data-bs-target='#carouselExampleControls'
-        data-bs-slide='next'
-      >
-        <span className='carousel-control-next-icon' aria-hidden='true'></span>
-        <span className='visually-hidden'>Next</span>
-      </button>
     </div>
 
-    {/* Porfolio */}
+    {/* Porfólio */}
     <section>
       <div className='row'>
         <div className='col-md-12'>
-          <div className='card card-body bg-info'>
+          <div className='card card-body'>
             <div className='row'>
-              <div className='col-md-12 my-2'>
-                <h1 className='text-center text-light'>Portal</h1>
-              </div>
               {projects.map(({ name, description, image }, index) => (
-                <div className='col-md-4 p-2' key={index}>
+                <div className='col-md-6 padding' key={index}>
                   <div className='card h-100'>
                     <div className='overflow'>
                       <img src={`/${image}`} alt='' className='card-img-top' />

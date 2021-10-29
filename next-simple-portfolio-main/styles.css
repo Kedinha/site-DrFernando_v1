@@ -1,2 +1,19 @@
+@media (min-width: 1000px) {
+  /* footer */
+  .padding {
+    padding: 1.5rem 4.5rem;
+  }
+  .dflex {
+    display: flex;
+  }
+  .textalign {
+    text-align: left;
+  }
+}
 
-
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #9ecaf5 !important;
+}

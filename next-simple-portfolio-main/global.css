@@ -4,7 +4,7 @@ body > div:first-child,
 div#__next,
 div#__next > div {
   height: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .overflow {
@@ -30,5 +30,5 @@ div#__next > div {
   border-left-color: #ffbb00;
 }
 .bg-primary {
-  background-color: #000082 !important;
+  background-color: #000066 !important;
 }
