@@ -7,7 +7,7 @@ const Github = ({ user, statusCode }) => {
   }
 
   return (
-    <Layout title="My Github" footer={false} dark>
+    <Layout title="My Github" footer={true} dark>
       <div className="row">
         <div className="col-md-4 offset-md-4">
           <div className="card card-body text-center">
@@ -39,7 +39,7 @@ Github.proptypes = {};
 
 export async function getServerSideProps() {
   const res = await fetch(
-    "https://api.github.com/users/fazttech"
+    "https://api.github.com/users/kedinha"
   );
   const data = await res.json();
 

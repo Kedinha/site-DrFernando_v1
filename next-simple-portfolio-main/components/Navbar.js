@@ -52,7 +52,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link href='/experience'>
+                <Link href='/github'>
                   <a className='nav-link'>AGENDA</a>
                 </Link>
               </li>
