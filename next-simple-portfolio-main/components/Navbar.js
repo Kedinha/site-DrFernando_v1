@@ -42,7 +42,7 @@ const Navbar = () => {
               <li className='nav-item'>
                 <Link href='/blog'>
                   <a className='nav-link ' aria-current='page'>
-                    COLUNA
+                    COLUNA VERTEBRAL
                   </a>
                 </Link>
               </li>
