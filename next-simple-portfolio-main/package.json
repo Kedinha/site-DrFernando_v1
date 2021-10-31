@@ -16,6 +16,8 @@
   "scripts": {
     "dev": "next",
     "build":"next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "homepage" : "https://fernandopaivarf.com.br/site/" 
+    
   }
 }
